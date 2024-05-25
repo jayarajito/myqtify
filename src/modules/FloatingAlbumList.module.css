@@ -1,0 +1,25 @@
+.floatingAlbumList {
+  position: fixed;
+  top: 74px;
+  right: 26.7%;
+  border-radius: 10px;
+  padding: 20px;
+  width: 50%;
+  z-index: 10000;
+  max-height: 50vh;
+  overflow-y: auto;
+  background-color: #121212;
+  border-left: 2px solid #34c94b;
+  border-right: 2px solid #34c94b;
+  border-bottom: 2px solid #34c94b;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.7), -5px 0 10px rgba(0, 0, 0, 0.7), 0 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+.AlbumListContainer {
+  padding: 5px;
+}
+
+.AlbumList {
+  list-style: none;
+  padding: 5px;
+}

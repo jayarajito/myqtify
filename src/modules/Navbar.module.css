@@ -1,0 +1,9 @@
+.navbarToolbar{
+    background-color:#34C94B;
+    display: flex;
+    justify-content: space-between;
+    width:auto;
+    height:74px;
+    border:1px #34C94B;
+    padding: 0px 30px;
+}

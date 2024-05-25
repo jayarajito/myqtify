@@ -1,0 +1,23 @@
+.accordionSummary{
+    background-color: #121212;
+    color:#FFFFFF;
+    border-radius:10px;
+    margin-bottom: 7px;
+}
+
+.accordionArrow{
+    color:#34C94B;
+}
+
+.centeredAccordion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .accordionsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  

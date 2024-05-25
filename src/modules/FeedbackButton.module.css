@@ -1,0 +1,14 @@
+.feedbackButton {
+    width: 13%;
+    height: 47px;
+    padding: 10px 16px;
+    border-radius: 12px;
+    background: #121212;
+    border: 1px solid #34C94B;
+    color: #34C94B;
+    margin-top: 13px;
+    cursor:pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+  }

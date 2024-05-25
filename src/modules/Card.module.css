@@ -1,0 +1,26 @@
+.cardOutlined{
+    width: 159px;
+    margin:auto;
+    padding:5px;
+}
+
+.cardImage{
+    object-fit: cover;
+    object-position: center;
+}
+
+.albumTitle{
+    margin-top:10px;
+    text-align: center;
+}
+
+.chipInformation{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.albumTitle{
+    color: #FFFFFF;
+    font-size: medium;
+}
+

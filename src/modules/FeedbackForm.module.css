@@ -1,0 +1,65 @@
+.feedbackFormContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    z-index:1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  }
+  
+  .feedbackForm {
+    text-align: center;
+  }
+  
+  .formHeading {
+    margin-top: 0;
+    font-size: medium;
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  
+  .textBox {
+    width: 90%;
+    border: 2px solid #34c94b;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .textArea{
+    width: 90% !important;
+    border: 2px solid #34c94b;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    resize: none;
+    height: 5rem !important;
+  }
+  
+  .submitButton {
+    max-width:70%;
+    background-color: #34c94b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .submitButton:hover {
+    background-color: #2c9c3b;
+  }
+  

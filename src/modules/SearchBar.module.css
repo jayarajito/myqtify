@@ -1,0 +1,30 @@
+.SearchBarBox {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    border-radius: 8px;
+    border: 2px solid #121212;
+    background-color: #ffffff;
+    height: 48px;
+    margin-top: 13px;
+  }
+  
+  .SearchInput {
+    flex: 9;
+    height:100%;
+    border: none;
+    padding:0 10px;
+    border-radius: 8px;
+    outline:none;
+  }
+
+  .SearchInput::placeholder{
+    color:#555;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+  }
+  
+  .SearchButton {
+    flex: 1;
+    height:100%;
+  }

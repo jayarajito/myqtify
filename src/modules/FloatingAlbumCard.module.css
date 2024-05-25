@@ -1,0 +1,42 @@
+.FloatingAlbumCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.AlbumImage{
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgb(240, 235, 235);
+}
+
+.AlbumTitle{
+    color:#FFFFFF;
+    font-size: medium;
+    width:150%;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.AlbumArtist{
+    color:#FFFFFF;
+    font-size: small;
+    font-style: italic;
+}
+
+.AlbumFollows{
+    color:#FFFFFF;
+    font-size: medium;
+    font-style: italic;
+}
+
+.AlbumTitleArtist{
+    display:flex;
+    margin-left: 10%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.AlbumImageArtist{
+    display:flex;
+}
